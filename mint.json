@@ -5,7 +5,7 @@
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/light.svg",
   "colors": {
     "primary": "#0D9373",
     "light": "#07C983",
@@ -14,16 +14,6 @@
       "from": "#0D9373",
       "to": "#07C983"
     }
-  },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
   },
   "tabs": [
     {
@@ -43,7 +33,7 @@
     {
       "group": "Get Started",
       "pages": [
-        "quickstart"
+        "home"
       ]
     },
     {
@@ -54,7 +44,13 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "linkedin": "https://www.linkedin.com/company/uselightinc"
+  },
+  "api": {
+    "baseUrl": "https://api.light.inc/rest",
+    "auth": {
+      "method": "bearer",
+      "name": "token"
+    }
   }
 }
